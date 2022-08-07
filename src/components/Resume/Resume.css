@@ -1,0 +1,143 @@
+.r{
+    display: flex;
+    height: 100vh;
+}
+.r-right{
+    position: sticky;
+    flex:1;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    scroll-behavior: initial;
+    background-attachment: fixed;
+}
+.r-nav{
+    height: 100px;
+    width:100px;
+}
+.r-left{
+    position: static;
+    flex: 2;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.r-navbar{
+    position: absolute;
+    width: 290px;
+    height: 461px;
+    left: 20%;
+    top: 20%;
+
+    background: #9E3FFD;
+    border-radius: 27px;
+    justify-content: space-between;
+    text-transform: uppercase;
+    line-height: 70px;
+
+}
+.r-navcenter{
+    position: absolute;
+    top: 50px;
+    left: 57px;
+}
+
+.r-navcenter a{
+    width: 101px;
+height: 30px;
+left: 101px;
+top: 55px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+text-decoration: none;
+
+
+color: #FFFFFF;
+}
+
+.r-navcenter a:hover{
+    background-color: #333;
+    border-radius: 3px;
+    width: 50px;
+}
+.r-navcenter a:not(:last-of-type){
+    margin-right: 0.25rem;
+}
+
+
+.r-title{
+    position: relative;
+    width: 162px;
+    height: 60px;
+    left: 32%;
+    top: -30px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+
+    color: #000000;
+}
+.r-norline{
+    position: absolute;
+    width: 244px;
+    height: 4px;
+    background: #000000;
+    border-radius: 50px;
+    top: 100px;
+    left: 26%;
+}
+.r-rectangle{
+    position: absolute;
+    width: 54px;
+    height: 15px;
+
+    background: #9E3FFD;
+    border-radius: 20px;
+    top:94px;
+    left: 46%;
+}
+.r-para{
+    position: absolute;
+    top: 45px;
+    left: 25%;
+    letter-spacing: 2px;
+    font-family: Poppins;
+    word-spacing: 15px;
+}
+
+.r-school,
+.r-color,
+.r-inter,
+.r-source,
+.r-time{
+    color: white;
+    height: 30px;
+    width: 30px;
+}
+
+.r-Icons{
+    position: relative;
+    line-height: 70px;
+    top: 57px;
+    left: 15px;
+}
+
+
+@media screen and (max-width:480px){
+    .r{
+        flex-direction: column;
+    }
+    .r-right{
+        display: none;
+    }
+}

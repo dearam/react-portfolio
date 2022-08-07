@@ -1,0 +1,271 @@
+.In{
+    display: flex;
+    height: 100vh;
+    position: relative;
+}
+.i-element{
+    position: absolute;
+    width: 724px;
+    height: 530px;
+    top: 65px;
+    left: 100px;
+
+    background: #9E3FFD;
+    border-radius: 24px;
+    border: 1px solid #333;
+}
+.i-reactangle{
+    position: relative;
+    width: 309px;
+    height: 54px;
+    top: -30px;
+    left: 29%;
+
+    background: #fff;
+    border: 5px solid #333;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+    align-items: center;
+    justify-content: center;
+}
+.in-title{
+    position: relative;
+    top: -25px;
+    left: 24%;
+    font-weight: 100;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.in-Icons{
+    position: relative;
+    line-height: 100px;
+    top: 5px;
+    left: -150px;
+}
+.in-school,
+.in-color,
+.in-inter,
+.in-source,
+.in-time{
+    color: black;
+    height: 30px;
+    width: 30px;
+}
+
+.e-design{
+    position: absolute;
+    width: 50px;
+    height: 91px;
+    left: 87%;
+
+    background: #E5E5E5;
+    border-radius: 0px 0px 10px 10px;
+}
+.e-tline{
+    position: absolute;
+    width: 430px;
+    height:2px;
+    color: black;
+    top: 56%;
+    left: -157px;
+    background-color: #000000;
+
+    border: 0px solid #000000;
+    border-radius: 2px;
+    transform: rotate(89.84deg);
+}
+.e-circle1,
+.e-circle2,
+.e-circle3,
+.e-circle4{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+
+    background: rgba(255, 255, 255, 0.78);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+.e-point{
+    position: absolute;
+    letter-spacing: 20px;
+    line-height: 115px;
+    top: 15%;
+    left: 7.1%;
+}
+.in-years{
+    position: absolute;
+    line-height: 101px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 3px;
+    top: 180%;
+    left: -50px;
+}
+.e-etitle{
+    position: absolute;
+    line-height: 115px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: white;
+    top: 5.4%;
+    left: 34%;
+}
+
+.in-d1{
+    position: absolute;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+    left: -40px;
+    top: 270%;
+    padding: 0px;
+    width: 500px;
+
+}
+.in-d2{
+    position: absolute;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+    left: -40px;
+    top: 455%;
+    padding: 0px;
+    width: 500px;
+    
+}
+.in-d3{
+    position: absolute;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+    left: -40px;
+    top: 645%;
+    padding: 0px;
+    width: 500px;
+
+    
+}
+.in-d4{
+    position: absolute;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+    left: -40px;
+    top: 825%;
+    padding: 0px;
+    width: 500px;
+    
+}
+
+@media screen and (max-width:480px){
+    .In{
+        display: none;
+    }
+    .i-element{
+        position: absolute;
+        width: 400px;
+        height: 530px;
+        top: 65px;
+        left: 100px;
+    
+        background: #9E3FFD;
+        border-radius: 24px;
+        border: 1px solid black;
+    }
+    .i-reactangle{
+        position: relative;
+        width: 209px;
+        height: 44px;
+        top: -30px;
+        left: 29%;
+    
+        background: #fff;
+        border: 5px solid #333333;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 28px;
+        align-items: center;
+       
+}
+.in-title{
+    position: relative;
+    top: -20px;
+    left: 27%;
+    font-weight: 100;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 45px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.in-Icons{
+    position: relative;
+    line-height: 100px;
+    top: 5px;
+    left: -10px;
+}
+.e-design{
+    display: none;
+}
+.in-d1{
+    position: absolute;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+    left: -40px;
+    top: 270%;
+    padding: 0px;
+    width: 300px;
+
+}
+.in-d2{
+    position: absolute;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+    left: -40px;
+    top: 455%;
+    padding: 0px;
+    width: 500px;
+    
+}
+.in-d3{
+    position: absolute;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+    left: -40px;
+    top: 645%;
+    padding: 0px;
+    width: 500px;
+
+    
+}
+.in-d4{
+    position: absolute;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+    left: -40px;
+    top: 925%;
+    padding: 0px 300px;
+    width: 300px;
+    
+}
+
+}

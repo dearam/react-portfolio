@@ -1,0 +1,27 @@
+export const links=[
+    {
+        id:1,
+        text:'Home',
+        url:"#Home"
+    },
+    {
+        id:2,
+        text:'About',
+        url:"#About"
+    },
+    {
+        id:3,
+        text:'Resume',
+        url:"#Resume"
+    },
+    {
+        id:4,
+        text:'Project',
+        url:"#Projet"
+    }, 
+    {
+        id:5,
+        text:'Contact',
+        url:"#Contact"
+    }
+]

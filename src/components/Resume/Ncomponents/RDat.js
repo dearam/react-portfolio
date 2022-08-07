@@ -1,0 +1,27 @@
+export const Link=[
+    {
+        id:1,
+        text:'education',
+        url:"#Education"
+    },
+    {
+        id:2,
+        text:'interests',
+        url:"#Interests"
+    },
+    {
+        id:3,
+        text:'ProgrammingSkills',
+        url:"#ProgrammingSkills"
+    },
+    {
+        id:4,
+        text:'Courses',
+        url:"#Rprojects"
+    },
+    {
+        id:5,
+        text:'Workhistory',
+        url:"#Workhistory"
+    }
+]

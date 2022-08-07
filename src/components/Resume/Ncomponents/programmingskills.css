@@ -1,0 +1,440 @@
+.ps{
+    display: flex;
+    height: 100vh;
+    position: relative;
+}
+.ps-element{
+    position: absolute;
+    width: 724px;
+    height: 530px;
+    top: 65px;
+    left: 100px;
+
+    background: #9E3FFD;
+    border-radius: 24px;
+    border: 1px solid #333;
+}
+.ps-reactangle{
+    position: relative;
+    width: 309px;
+    height: 54px;
+    top: -30px;
+    left: 29%;
+
+    background: #fff;
+    border: 5px solid #333;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+    align-items: center;
+    justify-content: center;
+}
+.ps-title{
+    position: relative;
+    top: -25px;
+    left: 8%;
+    font-weight: 100;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 45px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.in-Icons{
+    position: relative;
+    line-height: 100px;
+    top: 5px;
+    left: -150px;
+}
+.in-school,
+.in-color,
+.in-inter,
+.in-source,
+.in-time{
+    color: black;
+    height: 30px;
+    width: 30px;
+}
+
+.e-design{
+    position: absolute;
+    width: 50px;
+    height: 91px;
+    left: 87%;
+
+    background: #E5E5E5;
+    border-radius: 0px 0px 10px 10px;
+}
+.e-tline{
+    position: absolute;
+    width: 430px;
+    height:2px;
+    color: black;
+    top: 56%;
+    left: -157px;
+    background-color: #000000;
+
+    border: 0px solid #000000;
+    border-radius: 2px;
+    transform: rotate(89.84deg);
+}
+.e-circle1,
+.e-circle2,
+.e-circle3,
+.e-circle4{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+
+    background: rgba(255, 255, 255, 0.78);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+.e-point{
+    position: absolute;
+    letter-spacing: 20px;
+    line-height: 115px;
+    top: 15%;
+    left: 7.1%;
+}
+.in-years{
+    position: absolute;
+    line-height: 101px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 3px;
+    top: 180%;
+    left: -50px;
+}
+.e-etitle{
+    position: absolute;
+    line-height: 115px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: white;
+    top: 5.4%;
+    left: 34%;
+}
+
+.in-d1{
+    position: absolute;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+    left: -40px;
+    top: 270%;
+    padding: 0px;
+    width: 500px;
+
+}
+.in-d2{
+    position: absolute;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+    left: -40px;
+    top: 455%;
+    padding: 0px;
+    width: 500px;
+    
+}
+.in-d3{
+    position: absolute;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+    left: -40px;
+    top: 645%;
+    padding: 0px;
+    width: 500px;
+
+    
+}
+.in-d4{
+    position: absolute;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+    left: -40px;
+    top: 825%;
+    padding: 0px;
+    width: 500px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.progress {
+	background-color: white;
+	border-radius: 20px;
+	position: relative;
+	margin: 15px 0;
+	height: 15px;
+	width: 250px;
+    font-size: solid black 13px;
+
+}
+
+.progress-done {
+	/* background: linear-gradient(to left, #0bceaf, #0bceaf); */
+    background: #49f8db;
+    box-shadow: 0 3px 3px -5px #49f8db, 0 2px 5px #0bceaf;
+	border-radius: 20px;
+	color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0; 
+	transition: 1s ease 0.3s;
+}
+
+.ps-progress{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    line-height: 35px;
+}
+
+
+
+
+.ps-pro-title{
+    font-size: 20px;
+    line-height: 58px;
+    font-weight: 400;
+    position: absolute;
+    left: 10px;
+    top: 6%;
+    left: 13%;
+    color: white;
+    letter-spacing: 3px;
+}
+.ps-iconset{
+    line-height: 78px;
+    position: absolute;
+    top: 10%;
+    left: 4%;
+}
+.ps-icon{
+    color: black;
+    height: 35px;
+    width: 35px;
+}
+
+
+@media screen and (min-width:380px) and (max-width:480px){
+    .ps{
+        flex-direction: column;
+        left: -78px;
+        height: 70vh;
+        width: 400px;
+    }
+    .ps-element{
+        position: absolute;
+        width: 400px;
+        height: 530px;
+        top: 65px;
+        left: 85px;
+    
+        background: #9E3FFD;
+        border-radius: 24px;
+        border: 1px solid black;
+    }
+    .ps-reactangle{
+        position: relative;
+        width: 209px;
+        height: 44px;
+        top: -30px;
+        left: 24%;
+    
+        background: #fff;
+        border: 5px solid #333333;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 28px;
+        align-items: center;
+       
+}
+.ps-title{
+    position: relative;
+    top: -20px;
+    left: 7%;
+    font-weight: 100;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 45px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+    .i-design{
+        display: none;
+    }
+    .e-tline{
+        display: none;
+}
+    .e-years{
+        left: 10%;
+    }
+    .e-point{
+        display: none;
+    }
+    .e-d1,
+    .e-d2,
+    .e-d3,
+    .e-d4{
+        font-size: 13px;
+    }
+    .ps-pro-title{
+        font-size: 15px;
+        top: 4%;
+        line-height: 80px;
+    }
+    .ps-iconset{
+        display: none;
+    }
+    .ps-icon{
+        display: none;
+    }
+    .ps-progress{
+        position: absolute;
+        left: 50%;
+        top: 10%;
+        line-height: 40px;
+        width: 200px;
+    }
+    .progress {
+        background-color: white;
+        border-radius: 20px;
+        position: relative;
+        margin: 15px 0;
+        height: 15px;
+        width: 150px;
+        font-size: solid black 13px;
+    
+    }
+
+}
+@media screen and (max-width:379px){
+    .ps{
+        flex-direction: column;
+        left: -78px;
+        height: 70vh;
+        width: 400px;
+    }
+    .ps-element{
+        position: absolute;
+        width: 300px;
+        height: 530px;
+        top: 250px;
+        left: 85px;
+    
+        background: #9E3FFD;
+        border-radius: 24px;
+        border: 1px solid black;
+    }
+    .ps-reactangle{
+        position: relative;
+        width: 209px;
+        height: 44px;
+        top: -30px;
+        left: 15%;
+    
+        background: #fff;
+        border: 5px solid #333333;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 28px;
+        align-items: center;
+       
+}
+.ps-title{
+    position: relative;
+    top: -15px;
+    left: 16%;
+    font-weight: 100;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 45px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+    .i-design{
+        display: none;
+    }
+    .e-tline{
+        display: none;
+}
+    .e-years{
+        left: 10%;
+    }
+    .e-point{
+        display: none;
+    }
+    .e-d1,
+    .e-d2,
+    .e-d3,
+    .e-d4{
+        font-size: 13px;
+    }
+    .ps-pro-title{
+        font-size: 15px;
+        top: 4%;
+        line-height: 80px;
+    }
+    .ps-iconset{
+        display: none;
+    }
+    .ps-icon{
+        display: none;
+    }
+    .ps-progress{
+        position: absolute;
+        left: 50%;
+        top: 10%;
+        line-height: 40px;
+        width: 200px;
+    }
+    .progress {
+        background-color: white;
+        border-radius: 20px;
+        position: relative;
+        margin: 15px 0;
+        height: 15px;
+        width: 150px;
+        font-size: solid black 13px;
+    
+    }
+
+}
+
+
+
+
+
+
